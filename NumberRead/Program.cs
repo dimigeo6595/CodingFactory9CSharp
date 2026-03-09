@@ -3,8 +3,7 @@
 
     /// <summary>
     /// Safe reading of float and double values from the console using 
-    /// TryParse method to handle invalid input gracefully.
-    /// 
+    /// TryParse method to handle invalid input gracefully.    /// 
     /// </summary>
     internal class Program
     {
