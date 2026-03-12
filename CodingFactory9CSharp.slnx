@@ -1,17 +1,26 @@
 <Solution>
+  <Project Path="ArgsDemo/ArgsDemo.csproj" Id="1b40723b-3472-460e-a737-cd2d2ed04c76" />
   <Project Path="ArrayApp/ArrayApp.csproj" Id="723b26f9-c60d-464f-83b7-341616817b38" />
   <Project Path="CitiesFor/CitiesFor.csproj" Id="a5162380-9a57-47bf-9e97-7ad4e1e38f13" />
   <Project Path="DoWhileApp/DoWhileApp.csproj" Id="0976443f-5f78-4503-a47a-271372098b23" />
   <Project Path="ExpressionBodyMethods/ExpressionBodyMethods.csproj" Id="5767ba72-58ce-4576-b5f9-b25a608937f5" />
+  <Project Path="ExtractCapitals/ExtractCapitals.csproj" Id="311216c6-a2c3-443c-af6d-55386c63257d" />
   <Project Path="FormatExceptionApp/FormatExceptionApp.csproj" Id="c5b2eb74-b395-4903-898d-b2f38cc43f5d" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
   <Project Path="IfCases/IfCases.csproj" Id="573912e6-872b-4365-a58a-04a0eb68927b" />
   <Project Path="KilometersApp/KilometersApp.csproj" />
   <Project Path="LinqArrays/LinqArrays.csproj" Id="898f99e6-adf8-4ae5-8cae-edcd346753b5" />
+  <Project Path="MethodChallenges/MethodChallenges.csproj" Id="c7ad721c-20f9-4d92-ad71-37a896851434" />
   <Project Path="MethodsApp/MethodsApp.csproj" Id="ec912439-fc04-426e-92c7-1a3444c9800e" />
+  <Project Path="MoreMethods/MoreMethods.csproj" Id="5a327f66-20b2-45f4-827f-dff225b595c7" />
+  <Project Path="NullableApp/NullableApp.csproj" Id="12fa7d39-2c85-41c1-bf21-1844515f86cb" />
   <Project Path="NumberRead/NumberRead.csproj" />
+  <Project Path="PalindromeStr/PalindromeStr.csproj" Id="ca98faf7-f98b-44a6-953a-aa649bb32931" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
   <Project Path="ProductsVat/ProductsVat.csproj" />
+  <Project Path="RegExApp/RegExApp.csproj" Id="eb15c3ea-d27a-4db8-b49a-0bff71b7e533" />
+  <Project Path="StringBuilderApp/StringBuilderApp.csproj" Id="da1931ba-b932-48a8-a98b-ec4e3b442253" />
+  <Project Path="StringsApp/StringsApp.csproj" Id="a0db930b-e38c-4b0e-a9d6-127380be1889" />
   <Project Path="SwapApp/SwapApp.csproj" Id="0511d7a3-7781-43e0-add7-7c35e6d8a9b5" />
   <Project Path="SwitcApp/SwitchApp.csproj" Id="297e3b53-2e4c-4687-9f44-4f3827723911" />
   <Project Path="TravellingApp/TravellingApp.csproj" />
