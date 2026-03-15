@@ -11,14 +11,14 @@ namespace AccountApp.Model
     {
         public int Id { get; set; }
         public string? Iban { get; set; }
-        public string Firstname { get; set; }
-        public string Lastname { get; set; }
+        public string? Firstname { get; set; }
+        public string? Lastname { get; set; }
         public decimal Balance { get; set; }
-        public string Ssn { get; set; }
+        public string? Ssn { get; set; }
 
         // Public API method for deposit.
 
-
+        
         /// <summary>
         /// Deposits the scpecified amount into the account. 
         /// </summary>
@@ -47,15 +47,15 @@ namespace AccountApp.Model
             try
             {
                 if (string.IsNullOrEmpty(Ssn)) throw new InvalidSSNException("Ssn must not be empty");
-                if (Ssn != Ssn) throw new InvalidSSNException("Ssn does not match account holder's Ssn");
+                if (ssn != Ssn) throw new InvalidSSNException("Ssn does not match account holder's Ssn");
                 if (amount < 0) throw new NegativeAmountException("Withdrawal amount must be positive.");
                 if (amount > Balance) throw new InsufficientBalanceException("Insufficient funds for withdrawal.");
                 Balance -= amount;
 
             }
             catch (Exception ex) when (ex is NegativeAmountException
-                                        || ex is InvalidSSNException
-                                        || ex is InsufficientBalanceException)
+                                        or InvalidSSNException                  // > C# 11.0 pattern matching with 'or' operator
+                                        || ex is InsufficientBalanceException) // Older syntax for catching multiple exceptions
             {
                 Console.Error.WriteLine(ex.Message);
                 throw; // Rethrow the exception to be handled by the caller.
