@@ -3,6 +3,7 @@
   <Project Path="ArgsDemo/ArgsDemo.csproj" Id="1b40723b-3472-460e-a737-cd2d2ed04c76" />
   <Project Path="ArrayApp/ArrayApp.csproj" Id="723b26f9-c60d-464f-83b7-341616817b38" />
   <Project Path="CitiesFor/CitiesFor.csproj" Id="a5162380-9a57-47bf-9e97-7ad4e1e38f13" />
+  <Project Path="CopyApp/CopyApp.csproj" Id="efb258ee-0afa-4a7e-a5b8-12f9e62d11c2" />
   <Project Path="DoWhileApp/DoWhileApp.csproj" Id="0976443f-5f78-4503-a47a-271372098b23" />
   <Project Path="ExpressionBodyMethods/ExpressionBodyMethods.csproj" Id="5767ba72-58ce-4576-b5f9-b25a608937f5" />
   <Project Path="ExtractCapitals/ExtractCapitals.csproj" Id="311216c6-a2c3-443c-af6d-55386c63257d" />
@@ -16,6 +17,7 @@
   <Project Path="MoreMethods/MoreMethods.csproj" Id="5a327f66-20b2-45f4-827f-dff225b595c7" />
   <Project Path="NullableApp/NullableApp.csproj" Id="12fa7d39-2c85-41c1-bf21-1844515f86cb" />
   <Project Path="NumberRead/NumberRead.csproj" />
+  <Project Path="OperatorOverloading/OperatorOverloading.csproj" Id="fca3826f-3284-4751-9591-54aea3c3160f" />
   <Project Path="PalindromeStr/PalindromeStr.csproj" Id="ca98faf7-f98b-44a6-953a-aa649bb32931" />
   <Project Path="PocoApp/PocoApp.csproj" Id="f501be71-8bb8-49b2-bdb9-d40f995300db" />
   <Project Path="PointApp/PointApp.csproj" Id="60292b5a-eb30-4730-9f3b-9346772fe8fc" />
