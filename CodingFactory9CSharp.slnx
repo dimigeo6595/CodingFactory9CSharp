@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AbstractApp/AbstractApp.csproj" Id="1a4d9e2a-4bc5-4712-afda-e3fda35488ac" />
   <Project Path="AccountApp/AccountApp.csproj" Id="66d756eb-c3ec-4311-a1a9-21dc1b9993b2" />
   <Project Path="ArgsDemo/ArgsDemo.csproj" Id="1b40723b-3472-460e-a737-cd2d2ed04c76" />
   <Project Path="ArrayApp/ArrayApp.csproj" Id="723b26f9-c60d-464f-83b7-341616817b38" />
@@ -10,6 +11,7 @@
   <Project Path="FormatExceptionApp/FormatExceptionApp.csproj" Id="c5b2eb74-b395-4903-898d-b2f38cc43f5d" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
   <Project Path="IfCases/IfCases.csproj" Id="573912e6-872b-4365-a58a-04a0eb68927b" />
+  <Project Path="InterfacesApp/InterfacesApp.csproj" Id="165cbaeb-7092-4f74-8a4a-7e24cfc5a24c" />
   <Project Path="KilometersApp/KilometersApp.csproj" />
   <Project Path="LinqArrays/LinqArrays.csproj" Id="898f99e6-adf8-4ae5-8cae-edcd346753b5" />
   <Project Path="MethodChallenges/MethodChallenges.csproj" Id="c7ad721c-20f9-4d92-ad71-37a896851434" />
