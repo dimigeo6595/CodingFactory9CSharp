@@ -5,6 +5,7 @@
   <Project Path="ArrayApp/ArrayApp.csproj" Id="723b26f9-c60d-464f-83b7-341616817b38" />
   <Project Path="CitiesFor/CitiesFor.csproj" Id="a5162380-9a57-47bf-9e97-7ad4e1e38f13" />
   <Project Path="CollectionsApp/CollectionsApp.csproj" Id="ad7c10f3-7f7b-4d04-84d2-49b0eed2451c" />
+  <Project Path="CollectionsSort/CollectionsSort.csproj" Id="a23975e3-128b-45d0-94c6-aa2d58c3d2f8" />
   <Project Path="CopyApp/CopyApp.csproj" Id="efb258ee-0afa-4a7e-a5b8-12f9e62d11c2" />
   <Project Path="DoWhileApp/DoWhileApp.csproj" Id="0976443f-5f78-4503-a47a-271372098b23" />
   <Project Path="ExpressionBodyMethods/ExpressionBodyMethods.csproj" Id="5767ba72-58ce-4576-b5f9-b25a608937f5" />
