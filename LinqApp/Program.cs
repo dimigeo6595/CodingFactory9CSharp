@@ -157,6 +157,19 @@ namespace LinqApp
         {
             return arr.Any(n => n > num);
         }
+
+        //Filtering
+        public static int[] FilterFluent(int[] arr) => [.. arr.Where(num => num % 2 == 0)]; // Method syntax with Where and auto return type
+        //{
+        //    return arr.Where(num => num % 2 == 0).ToArray(); // Method syntax with Where
+        //}
+
+        //Map - Select
+        public static int[] MapToDoubleFluent(int[] arr) => [.. arr.Where(n => n % 2 != 0).Select(n => n * 2)]; // Method syntax with Where, Select and auto return type
+        // arr.Where(n => n % 2 != 0).Select(n => n * 2).ToArray(); // Method syntax with Where and Select
+
+        //Reducing
+        public static int SumFluent(int[] arr) => arr.Sum(); // Method syntax with Sum and auto return type
     }
 
 }
